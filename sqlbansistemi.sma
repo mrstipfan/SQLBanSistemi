@@ -1640,7 +1640,7 @@ public queryShowUnbanMenuHandler(FailState, Handle:Query, Error[], Errcode, Data
         return;
     }
 
-    new menu = menu_create("\rKCS Unban Menu\w - Normal Unban", "menuUnbanHandler");
+    new menu = menu_create("\rCSA-Unban Menu\w - Normal Unban", "menuUnbanHandler");
     new text[192], info[16];
 
     if (!SQL_NumResults(Query))
@@ -1808,7 +1808,7 @@ public queryShowSqlDeleteMenuHandler(FailState, Handle:Query, Error[], Errcode, 
         return;
     }
 
-    new menu = menu_create("\rKCS SQL Kayit Menusu\w - Fiziksel Sil", "menuSqlDeleteHandler");
+    new menu = menu_create("\rCSA-SQL Kayit Menusu\w - Fiziksel Sil", "menuSqlDeleteHandler");
     new text[192];
     new info[16];
 
