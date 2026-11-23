@@ -1707,7 +1707,7 @@ public menuUnbanHandler(id, menu, item)
 
 public showSqlCleanupMainMenu(id)
 {
-    new menu = menu_create("\rKCS SQL Temizleme Menu", "menuSqlCleanupMainHandler");
+    new menu = menu_create("\rCSA-SQL Temizleme Menu", "menuSqlCleanupMainHandler");
     menu_additem(menu, "SQL Kayit Menusu", "1");
     menu_additem(menu, "Pasif Kayitlari Temizle", "2");
     menu_additem(menu, "Suresi Dolanlari Temizle", "3");
